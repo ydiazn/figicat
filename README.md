@@ -1,6 +1,6 @@
 # Digicat The Friend
 
-Videojuego para el tratamiento binocular de la ambliopía con una técnica dicóptica basada en multiplexación por división de longitud de ondas (anaglifa en el argot de gráfico por computadoras).
+Video game for binocular treatment of amblyopia based on wavelength multiplexing division thecnique (anaglyph in computer science)
 
 
 ## Based on Digicat The Thief
@@ -21,3 +21,7 @@ designs: Yenner Diaz <ydiazn@udg.co.cu>
 ## about code
 
 This little game is built using awesome javascript game framework called [Phaser](http://phaser.io). Have fun hacking it as you wish. 
+
+# How play
+
+Open index.html in web browser
