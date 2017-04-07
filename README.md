@@ -22,6 +22,10 @@ designs: Yenner Diaz <ydiazn@udg.co.cu>
 
 This little game is built using awesome javascript game framework called [Phaser](http://phaser.io). Have fun hacking it as you wish. 
 
-# How play
+# How run
 
 Open index.html in web browser
+
+## Requirements
+ - Firefox web browser with webGL support
+ - Graphic processor with shader supprt
