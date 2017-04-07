@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Buscador de Diamantes</title>
+	<link href="css/jquery-ui.css" rel="stylesheet">
+        <link href="css/profile.css" rel="stylesheet">
+        <script type="text/javascript" src="js/phaser.2.3.0.min.js"></script>
+</head>
+<body>
+    <div id="layout">
+        <!--Video game-->
+        <div id="game"></div>
+        
+        <!-- Video game menu-->
+        <div id="menu">
+            <div id="left_panel">
+                <h2 id="user" class="demoHeaders"></h2>
+                <button id="users_menu" class="menu_button">Cambiar usuario</button>
+            </div>
+            <div id="right_panel">
+                <h3 id="game_title">BUSCADOR DE DIAMANTES</h3>
+                <div id="actions">        
+                    <button id="new_menu" class="menu_button">Juego nuevo</button>
+                    <button id="continue_menu" class="menu_button">Continuar juego</button>
+                    <button id="treatment_menu" class="menu_button">Tratamiento</button>
+                    <button id="calibration_menu" class="menu_button">Calibración</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Dialogs -->
+    <div id="treatment_dialog" title="Configuración del tratamiento">
+        <div>
+            <h3>Supresión</h3>
+            <input type="text" id="suppression" name="suppression" />
+        </div>
+        <div style="height:80px;">
+            <div style="float:left">
+                <h3>Ojo ambliope</h3>
+                <form style="margin-top: 1em;">
+                    <div id="radioset_ambliopic_eye">
+                        <input type="radio" id="left_eye" name="radio" checked="checked"><label for="left_eye">Izquierdo</label>
+                        <input type="radio" id="right_eye" name="radio"><label for="right_eye">Derecho</label>
+                    </div>
+                </form>
+            </div>
+            <div style="float:right">
+                <h3>Método</h3>
+                <form style="margin-top: 1em;">
+                    <div id="radioset_method">
+                        <input type="radio" id="photoshop" name="radio" ><label for="photoshop">Photoshop</label>
+                        <input type="radio" id="naive" name="radio" checked="checked"><label for="naive">Naive</label>                 
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <h3>Algoritmo</h3>
+            <form style="margin-top: 1em;">
+                <div id="radioset_algorithm">
+                    <input type="radio" id="color_anaglyph" name="radio" ><label for="color_anaglyph">A color</label>
+                    <input type="radio" id="half_color_anaglyph" name="radio" checked="checked"><label for="half_color_anaglyph">Color a medias</label>
+                    <input type="radio" id="gray_anaglyph" name="radio"><label for="gray_anaglyph">Escala de grises</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="calibration_dialog" title="Calibración dicóptica">
+        <div>
+            <div id="block_left">
+                <h3>al</h3>
+                <input type="text" id="al" name="al"/>
+                <h3>ar</h3>
+                <input type="text" id="ar" name="ar"/>
+                <h3>gamma</h3>
+                <input type="text" id="gamma" name="gamma"/>
+            </div>
+            <div id="block_right">
+                <h3>bl</h3>
+                <input type="text" id="bl" name="bl"/>
+                <h3>br</h3>
+                <input type="text" id="br" name="br"/>
+            </div>
+        </div>
+    </div>
+    <div id="users_dialog" title="Usuarios">
+        <div>
+            <h2 class="demoHeaders">Buscar usuario</h2>
+            <div>
+                <input id="autocomplete" title="Escriba nombre de usuario"/>
+            </div>
+        </div>
+    </div>	
+<script src="external/jquery/jquery.js"></script>
+<script src="external/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="StorageManager.js"></script>    
+<script type="text/javascript" src="Util.js"></script>
+<script type="text/javascript" src="SoundPlayer.js"></script>
+<script type="text/javascript" src="Postprocessing.js"></script>
+<script type="text/javascript" src="UIManager.js"></script>
+<script type="text/javascript" src="Enemy.js"></script>
+<script type="text/javascript" src="EnemyManager.js"></script>
+<script type="text/javascript" src="LevelManager.js"></script>
+<script type="text/javascript" src="Player.js"></script>
+<script type="text/javascript" src="DichopticManager.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="js/profile.js"></script>
+</body>
+</html>
