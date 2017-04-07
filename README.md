@@ -28,4 +28,4 @@ Open index.html in web browser
 
 ## Requirements
  - Firefox web browser with webGL support
- - Graphic processor with shader supprt
+ - Graphic processor with shader support
