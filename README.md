@@ -22,3 +22,4 @@ Open index.html in web browser
 
 ## Requirements
  - Firefox web browser with webGL support
+ - Anaglyph glasses
