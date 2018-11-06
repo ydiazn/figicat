@@ -1,0 +1,48 @@
+[
+    {
+       "id": 1,
+       "name": "yisel",
+       "medical": {
+           "amblyopicEye": "Left",
+           "suppresion": 0.5
+        },
+       "dichoptic" :
+        { 
+            "id": "Monitor-gafas",
+            "al":0.8215,
+            "bl":0.258,
+            "ar":0.258,
+            "br":0.987,
+            "gamma": 0.136
+        },
+       "state": {
+           "level": 5,
+           "lives": 2,
+           "score": 20
+       }
+   },
+   {
+       "id": 2,
+       "name": "yenner",
+       "medical": {
+           "amblyopicEye": "Right",
+           "suppresion": 0.3
+       },
+       "dichoptic" :
+        { 
+            "id": "Monitor-gafas",
+            "al":0.8215,
+            "bl":0.258,
+            "ar":0.258,
+            "br":0.987,
+            "gamma": 0.136
+        },
+       "state": {
+           "level": 15,
+           "lives": 2,
+           "score": 140
+       }
+   }
+]
+
+

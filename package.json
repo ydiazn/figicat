@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ydiazn/figicat#readme",
   "dependencies": {
-    "phaser": "^3.15.1"
+    "phaser-ce": "^2.11.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
   }
 }
