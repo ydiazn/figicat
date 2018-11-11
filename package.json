@@ -16,10 +16,10 @@
     "url": "https://github.com/ydiazn/figicat/issues"
   },
   "homepage": "https://github.com/ydiazn/figicat#readme",
-  "dependencies": {
-    "phaser-ce": "^2.11.1"
-  },
   "devDependencies": {
     "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "phaser": "^2.4.8"
   }
 }
